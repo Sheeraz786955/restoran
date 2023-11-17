@@ -1,0 +1,61 @@
+import Image from "next/image"
+import Buttonemail from "./Buttonemail"
+export default function Footer() {
+    return <div className="footer bg bg-[#212432] text-white p-5 pr-4">
+        <div className="container md:flex md:space-x-8">
+            <div className="left py-8">
+                <div className="flex flex-col pl-10">
+                    <a className=" py-4" href="">Compamy</a>
+                    <a className="py-1 hover:text-[#fea116] hover:underline" href="">{'>'} About Us</a>
+                    <a className="py-1 hover:text-[#fea116] hover:underline" href="">{'>'} Contact Us</a>
+                    <a className="py-1 hover:text-[#fea116] hover:underline" href="">{'>'} Preservation</a>
+                    <a className="py-1 hover:text-[#fea116] hover:underline" href="">{'>'} Privacy Policy</a>
+                    <a className="py-1 hover:text-[#fea116] hover:underline" href="">{'>'} Terms and Condition</a>
+                </div>
+            </div>
+            <div className="mid1 py-8">
+                <div className="flex flex-col pl-10">
+                    <h1 className="py-4">Contact</h1>
+                    <div className="flex space-x-3 py-3"><div className=" "><img className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/location-pin-svgrepo-com.svg" alt="" /></div><span className=" py-1">Joher Town Near Jinnah Hospital Lahore</span></div>
+                    <div className="flex space-x-3 py-3"><div className=" "><img className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/phone-call-svgrepo-com.svg" alt="" /></div><span className=" py-1">+923087267910</span></div>
+                    <div className="flex space-x-3 py-3"><div className=" "><img className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/email-1-svgrepo-com.svg" alt="" /></div><span className=" py-1">sheerazahmad.cs@gmail.com</span></div>
+                    <div className=" flex space-x-4 pl-8 pt-8">
+                        <div><img className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/facebook-color-svgrepo-com.svg" alt="" /></div>
+                        <div><img className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/linkedin-svgrepo-com.svg" alt="" /></div>
+                        <div><img className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/twitter-color-svgrepo-com.svg" alt="" /></div>
+                        <div><img className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="icons/youtube-color-svgrepo-com.svg" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+            <div className="mid2 py-8">
+                <div className="flex flex-col pl-10">
+                    <h1 className="py-4">Opening</h1>
+                    <span className="">Monday-Saturday</span>
+                    <span className=" py-1">10AM to 12AM</span>
+                    <span className=" pt-1">Sunday</span>
+                    <span className="">11Am to 1AM</span>
+                </div>
+            </div>
+            <div className="right ">
+                <div className="flex flex-col pl-10">
+                    <h1 className=" py-10">News Letter</h1>
+                    <div className="bg-white mb-5 flex w-80 border-solid border-2 border-yellow-500"> <div className="bg-white"><input type="Email" placeholder="Enter your Email" className="email " /></div><div><Buttonemail /></div></div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div className="buttom md:flex">
+            <div className="left">
+                <span>©Restoran, All Right Reserved. Designed By Sheeraz Ahmad</span>
+            </div>
+            <div className="right md:px-72">
+                <div className="flex space-x-4 ">
+                    <a className ="hover:text-[#fea116] hover:underline" href=""> Home</a>
+                    <a className ="hover:text-[#fea116] hover:underline" href="">{'|'} Cokise</a>
+                    <a className ="hover:text-[#fea116] hover:underline" href="">{'|'} Help</a>
+                    <a className ="hover:text-[#fea116] hover:underline" href="">{'|'} FAQs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
