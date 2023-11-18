@@ -1,4 +1,5 @@
 "use client" 
+import More from './More';
 import React, { use, useState } from 'react';
 import Button from './Button';
 
@@ -42,40 +43,47 @@ const Dropdown: React.FC = () => {
           >
             <a
               href="#"
-              className="block px-4 py-2 pr-5 text-sm justify-start text-white hover:bg-gray-100"
+              className="block px-4 py-2 pr-12 text-sm justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Home
             </a>
             <a
               href="#"
-              className="block px-4 py-2 text-sm text-white hover:bg-gray-100"
+              className="block px-4 py-2 text-sm text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
-             Manu
+             <More/>
             </a>
             <a
               href="#"
-              className="block px-4 py-2 text-sm justify-start text-white hover:bg-gray-100"
+              className="block  py-2 text-sm pr-12 justify-start text-white font-bold hover:text-[#fea116]"
+              role="menuitem"
+            >
+              Services
+            </a>
+            <a
+              href="#"
+              className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
+              role="menuitem"
+            >
+              Manu
+            </a>
+            <a
+              href="#"
+              className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Contact
             </a>
             <a
               href="#"
-              className="block px-4 py-2 text-sm text-white hover:bg-gray-100"
+              className="block pr-12 py-2 text-sm text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
              About
             </a>
-            <div className="relative group">
-        <button className="group-hover:bg-gray-400 text-white px-4 py-2 ">Services</button>
-        <ul className="hidden absolute z-10 mt-2 space-y-2 bg-gray-200 text-black p-2 shadow-lg group-hover:block">
-        <li><a href="#" className="block px-4 py-2">Booking</a></li>
-        <li><a href="#" className="block px-4 py-2">Our Team</a></li>
-        <li><a href="#" className="block px-4 py-2">Testimonial</a></li>
-        </ul>
-       </div>
+            
        <div className='text-white block px-4 py-2 '><Button/></div>
           </div>
         </div>

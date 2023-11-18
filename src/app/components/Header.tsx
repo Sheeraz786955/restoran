@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
+import More from "./More";
 export default function () {
   return (
     <div className="h-fit">
@@ -16,50 +17,25 @@ export default function () {
         <div className="pr-56 ">
           <a href="">RESTORAN</a>
         </div>
-        <a className="hover:text-[#fea116]" href={""}>
+        <a className="hover:text-[#fea116] pt-1" href={""}>
           Home
         </a>
-        <Link className="hover:text-[#fea116]" href={"service"}>
+        <span className="mb-1">
+          <More/>
+        </span>
+        <Link className="hover:text-[#fea116] pt-1" href={"service"}>
           Services
         </Link>
-        <Link className="hover:text-[#fea116]" href={"about"}>
+        <Link className="hover:text-[#fea116] pt-1" href={"about"}>
           About
         </Link>
-        <Link className="hover:text-[#fea116]" href={"contact"}>
+        <Link className="hover:text-[#fea116] pt-1" href={"contact"}>
           Contact
         </Link>
-        <Link className="hover:text-[#fea116]" href={"manu"}>
+        <Link className="hover:text-[#fea116] pt-1" href={"manu"}>
           Manu
         </Link>
 
-        <div className="relative group">
-          <button className="group-hover:bg-gray-400 hover:text-[#fea116]">
-            More
-          </button>
-          <ul className="hidden absolute z-10 mt-2 space-y-2 bg-gray-200 text-black p-2 shadow-lg group-hover:block">
-            <li>
-              <Link
-                href={"booking"}
-                className="block px-4 py-2 hover:text-[#fea116]"
-              >
-                Booking
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={"our-team"}
-                className="block px-4 py-2 hover:text-[#fea116]"
-              >
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <a href="#" className="block px-4 py-2 hover:text-[#fea116]">
-                Testimonial
-              </a>
-            </li>
-          </ul>
-        </div>
         <div className="w-fit">
           <Button />
         </div>
