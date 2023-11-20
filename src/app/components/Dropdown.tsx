@@ -2,6 +2,7 @@
 import More from './More';
 import React, { use, useState } from 'react';
 import Button from './Button';
+import Link from 'next/link';
 
 const Dropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,50 +42,50 @@ const Dropdown: React.FC = () => {
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
-            <a
-              href="#"
+            <Link
+              href="home"
               className="block px-4 py-2 pr-12 text-sm justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Home
-            </a>
-            <a
-              href="#"
+            </Link>
+            <span
+              
               className="block px-4 py-2 text-sm text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
              <More/>
-            </a>
-            <a
-              href="#"
+            </span>
+            <Link
+              href="service"
               className="block  py-2 text-sm pr-12 justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Services
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="manu"
               className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Manu
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="contact"
               className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Contact
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="about"
               className="block pr-12 py-2 text-sm text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
              About
-            </a>
+            </Link>
             
-       <div className='text-white block px-4 py-2 '><Button/></div>
+       <div className='text-white block px-4 py-2 '>  <Link href={'book-table'}><Button/></Link></div>
           </div>
         </div>
       )}

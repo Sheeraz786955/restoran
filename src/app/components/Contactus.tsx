@@ -6,11 +6,11 @@ export default function Contactus(){
             <form action="" className="p-11 md:pl-48 ">
                 <span className="text-white font-bold text-2xl ml-14 mb-7">Please write us</span><br />
                 <span className="font-semibold text-xl text-white">Name</span><br />
-                <input className="p-3 w-80 mb-3 mt-1" type="text" placeholder="Your Name"/><br/>
+                <input className="p-3 w-80 mb-3 mt-1 rounded-2xl" type="text" placeholder="Your Name"/><br/>
                 <span className="font-semibold text-xl text-white">Email</span><br />
-                <input className="p-3 w-80 mb-3 mt-1" type="email" placeholder="Your Email"/><br/>
+                <input className="p-3 w-80 mb-3 mt-1 rounded-2xl" type="email" placeholder="Your Email"/><br/>
                 <span className="font-semibold text-xl text-white">Subject</span><br />
-                <input className="p-3 w-80 mb-3 mt-1" type="text" placeholder="Subject"/><br />
+                <input className="p-3 w-80 mb-3 mt-1 rounded-2xl" type="text" placeholder="Subject"/><br />
                 <span className="font-semibold text-xl text-white">Message</span><br />
                 <textarea className="p-3 w-80 mb-3 mt-1" name="message" placeholder="Message"/><br />
                 <div className=" mt-2"><Buttonmessage/></div>

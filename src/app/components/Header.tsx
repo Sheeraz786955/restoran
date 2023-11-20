@@ -2,24 +2,25 @@ import Button from "./Button";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
 import More from "./More";
-export default function () {
+export default function Header () {
   return (
     <div className="h-fit">
-      <div className="py-3 md:hidden bg-[#212432] flex space-x-52 max-full">
+      <div className="py-3 md:hidden bg-[#212432] flex gap-48 w-full max-full">
         <div className="text-white pl-3 pt-1 ">
-          <a href="home">RESTORAN</a>
+          <Link href="/" className=" text-[#fea116] font-serif font-extrabold hover:text-orange-400">RESTORAN</Link>
         </div>
         <div className=" ">
           <Dropdown />
         </div>
       </div>
-      <div className="header hidden md:flex md:space-x-10 h-fit bg-[#212432] py-3 font-bold text-2xl w-full text-white justify-end pr-3">
-        <div className="pr-56 ">
-          <a href="">RESTORAN</a>
+      <div className="header hidden md:flex md:space-x-10  bg-[#212432] py-1 font-bold text-2xl text-white  w-full pr-3">
+        <div className=" float-left pt-5 ml-5">
+          <Link href="/" className="text-[#fea116] font-serif font-extrabold hover:text-orange-400">RESTORAN</Link>
         </div>
-        <a className="hover:text-[#fea116] pt-1" href={""}>
+        <div className="flex md:space-x-10  bg-[#212432] py-3 font-bold text-2xl text-white justify-end w-full pr-3">
+        <Link className="hover:text-[#fea116] pt-1" href={"/"}>
           Home
-        </a>
+        </Link>
         <span className="mb-1">
           <More/>
         </span>
@@ -37,7 +38,8 @@ export default function () {
         </Link>
 
         <div className="w-fit">
-          <Button />
+          <Link href={'book-table'}><Button /></Link>
+        </div>
         </div>
       </div>
     </div>

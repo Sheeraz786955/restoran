@@ -9,10 +9,11 @@ import Mainheading from './components/Mainheading'
 
 export default function Home() {
   return (
-    <main className=' bg-gray-100' >
+    <main className=' bg-gray-100 items-center'>
      <Mainheading/>
      <Servicesbox/>
      <Welcome/>
+     <div className='mt-10'><h1 className='font-extrabold text-4xl text-center md:text-5xl my-10'>Most Popular Items</h1></div>
      <Foodmanu/>
      <Reservation/>
      <div className='mt-10'><h1 className='font-extrabold text-4xl text-center md:text-5xl'>Our Master Chefs</h1></div>

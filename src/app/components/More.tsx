@@ -1,4 +1,5 @@
 "use client" 
+import Link from 'next/link';
 import React, { use, useState } from 'react';
 
 const More: React.FC = () => {
@@ -39,27 +40,27 @@ const More: React.FC = () => {
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
-            <a
-              href="#"
+            <Link
+              href="booking"
               className="block px-4 py-2 pr-5 font-bold text-xl justify-start text-black hover:text-[#fea116]"
               role="menuitem"
             >
               Booking
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="our-team"
               className="block px-4 py-2 font-bold text-xl text-black hover:text-[#fea116]"
               role="menuitem"
             >
              Our Team 
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="block px-4 py-2 font-bold text-xl justify-start text-black hover:text-[#fea116]"
               role="menuitem"
             >
               Testimonial
-            </a>
+            </Link>
           </div>
         </div>
       )}
