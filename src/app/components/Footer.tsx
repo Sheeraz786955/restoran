@@ -17,14 +17,14 @@ export default function Footer() {
             <div className="mid1 py-8">
                 <div className="flex flex-col pl-10">
                     <h1 className="py-4">Contact</h1>
-                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/location-pin-svgrepo-com.svg" alt="" /></div><span className=" py-1">Joher Town Near Jinnah Hospital Lahore</span></div>
-                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/phone-call-svgrepo-com.svg" alt="" /></div><span className=" py-1">+923087267910</span></div>
-                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/email-1-svgrepo-com.svg" alt="" /></div><span className=" py-1">sheerazahmad.cs@gmail.com</span></div>
+                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/location-pin-svgrepo-com.svg" alt="" width={500} height={500}/></div><span className=" py-1">Joher Town Near Jinnah Hospital Lahore</span></div>
+                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/phone-call-svgrepo-com.svg" alt="" width={500} height={500}/></div><span className=" py-1">+923087267910</span></div>
+                    <div className="flex space-x-3 py-3"><div className=" "><Image className=" bg-[#fea116] w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/email-1-svgrepo-com.svg" alt="" width={500} height={500}/></div><span className=" py-1">sheerazahmad.cs@gmail.com</span></div>
                     <div className=" flex space-x-4 pl-8 pt-8">
-                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/facebook-color-svgrepo-com.svg" alt="" /></div>
-                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/linkedin-svgrepo-com.svg" alt="" /></div>
-                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/twitter-color-svgrepo-com.svg" alt="" /></div>
-                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/youtube-color-svgrepo-com.svg" alt="" /></div>
+                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/facebook-color-svgrepo-com.svg" alt="" width={500} height={500}/></div>
+                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/linkedin-svgrepo-com.svg" alt="" width={500} height={500}/></div>
+                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/twitter-color-svgrepo-com.svg" alt="" width={500} height={500} /></div>
+                        <div><Image className="w-10 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " src="/youtube-color-svgrepo-com.svg" alt="" width={500} height={500}/></div>
                     </div>
                 </div>
             </div>

@@ -7,18 +7,18 @@ export default function Welcome() {
                 <div className="up flex">
                     <div className="one md:w-1/2">
 
-                        <div className=""><Image className="md:p-2 w-60 md:w-full mt-4 md:mt-0 p-3 hover:scale-110 duration-300" src="/about-1.jpg" alt="" /></div>
+                        <div className=""><Image className="md:p-2 w-60 md:w-full mt-4 md:mt-0 p-3 hover:scale-110 duration-300" src="/about-1.jpg" alt="" width={500} height={500}/></div>
                     </div>
                     <div className="two w-1/2">
-                        <div className=" "><Image className="md:w-60 w-44 md:mt-20 mt-14 mr-4 md:p-2 hover:scale-110 duration-300" src="/about-2.jpg" alt="" /></div>
+                        <div className=" "><Image className="md:w-60 w-44 md:mt-20 mt-14 mr-4 md:p-2 hover:scale-110 duration-300" src="/about-2.jpg" alt="" width={500} height={500} /></div>
                     </div>
                 </div>
                 <div className="down flex">
                 <div className="three w-1/2">
-                    <div className=""><Image className="md:w-60 w-44 float-right md:p-2 hover:scale-110 duration-300" src="/about-3.jpg" alt="" /></div>
+                    <div className=""><Image className="md:w-60 w-44 float-right md:p-2 hover:scale-110 duration-300" src="/about-3.jpg" alt="" width={500} height={500} /></div>
                 </div>
                 <div className="four w-1/2">
-                    <div className=""><Image className="md:p-2 px-3 md:px-1 w-60 md:w-full mb-1 hover:scale-110 duration-300"   src="/about-4.jpg" alt="" /></div>
+                    <div className=""><Image className="md:p-2 px-3 md:px-1 w-60 md:w-full mb-1 hover:scale-110 duration-300"   src="/about-4.jpg" alt="" width={500} height={500} /></div>
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@ export default function Mainheading() {
                 <div className='items-center ml-20 md:ml-36 mt-8 w-full h-full'>  <Link href={'book-table'}><Button/></Link></div>
             </div>
             <div className="right md:w-1/2">
-                <div className='p-10 mb-3'><Image className='animate-pulse hover:scale-110 duration-300' src="/hero.png" alt="" /></div>
+                <div className='p-10 mb-3'><Image className='animate-pulse hover:scale-110 duration-300' src="/hero.png" alt="" width={700} height={0}/></div>
             </div>
         </div>
     </div>

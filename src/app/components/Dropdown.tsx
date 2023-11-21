@@ -43,43 +43,43 @@ const Dropdown: React.FC = () => {
             aria-labelledby="options-menu"
           >
             <Link
-              href="home"
-              className="block px-4 py-2 pr-12 text-sm justify-start text-white font-bold hover:text-[#fea116]"
+              href="/"
+              className="block px-4 py-2 pr-12 text-xl justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Home
             </Link>
             <span
               
-              className="block px-4 py-2 text-sm text-white font-bold hover:text-[#fea116]"
+              className="block px-4 py-2 text-xl text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
              <More/>
             </span>
             <Link
               href="service"
-              className="block  py-2 text-sm pr-12 justify-start text-white font-bold hover:text-[#fea116]"
+              className="block  py-2 text-xl pr-12 justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Services
             </Link>
             <Link
               href="manu"
-              className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
+              className="block pr-12 py-2 text-xl justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Manu
             </Link>
             <Link
               href="contact"
-              className="block pr-12 py-2 text-sm justify-start text-white font-bold hover:text-[#fea116]"
+              className="block pr-12 py-2 text-xl justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
               Contact
             </Link>
             <Link
               href="about"
-              className="block pr-12 py-2 text-sm text-white font-bold hover:text-[#fea116]"
+              className="block pr-12 py-2 text-xl text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
              About
