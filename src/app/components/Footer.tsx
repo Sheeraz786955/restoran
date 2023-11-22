@@ -3,7 +3,7 @@ import Link from "next/link"
 import Buttonemail from "./Buttonemail"
 export default function Footer() {
     return <div className="footer bg bg-[#212432] text-white md:p-5  pr-5">
-        <div className="container md:flex md:space-x-8">
+        <div className="container md:flex md:space-x-8 mb-1">
             <div className="left py-8">
                 <div className="flex flex-col pl-10">
                     <span className=" py-4">Compamy</span>
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
             <div className="mid2 py-8">
                 <div className="flex flex-col pl-10">
-                    <h1 className="py-4">Opening</h1>
+                    <h1 className="pt-3 pb-4">Opening</h1>
                     <span className="">Monday-Saturday</span>
                     <span className=" py-1">10AM to 12AM</span>
                     <span className=" pt-1">Sunday</span>
@@ -39,8 +39,8 @@ export default function Footer() {
             </div>
             <div className="right ">
                 <div className="flex flex-col pl-10">
-                    <h1 className=" py-10">News Letter</h1>
-                     <div className=""><input type="Email" placeholder="Enter your Email" className="email rounded-lg p-1 " /> <Buttonemail /></div>
+                    <h1 className=" pt-11 pb-5">News Letter</h1>
+                     <div className=""><input type="Email" placeholder="Enter your Email" className="email rounded-lg p-1 mb-2 " /><br /> <Buttonemail /></div>
                     
                 </div>
             </div>
