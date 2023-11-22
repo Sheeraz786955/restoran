@@ -2,7 +2,7 @@ import Buttonbooknow from "./Buttonbooknow"
 export default function Reservation(){
    return<div className="reservation md:px-8 md:py-4 mb-3">
     <div className="container md:flex h-fit  bg-[#0f172b]">
-        <div className="left w-full h-72 md:h-96 md:w-1/2 md:pl-16">
+        <div className="left w-full items-center justify-center h-72 md:h-96 md:w-1/2 md:pl-16">
         <video className="h-full w-fit md:mt-28"controls>
         <source src="movie.mp4" type="video/mp4"/>
         <source src="movie.ogg" type="video/ogg"/>

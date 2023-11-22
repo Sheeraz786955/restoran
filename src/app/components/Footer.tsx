@@ -40,17 +40,18 @@ export default function Footer() {
             <div className="right ">
                 <div className="flex flex-col pl-10">
                     <h1 className=" py-10">News Letter</h1>
-                    <div className="bg-white mb-5 flex w-80 border-solid border-2 border-yellow-500"> <div className="bg-white"><input type="Email" placeholder="Enter your Email" className="email " /></div><div><Buttonemail /></div></div>
+                     <div className=""><input type="Email" placeholder="Enter your Email" className="email rounded-lg p-1 " /> <Buttonemail /></div>
+                    
                 </div>
             </div>
         </div>
         <hr />
-        <div className="buttom md:flex">
+        <div className="buttom md:flex m-5">
             <div className="left">
                 <span>©Restoran, All Right Reserved. Designed By <h1 className="font-bold hover:underline">Sheeraz Ahmad</h1></span>
             </div>
-            <div className="right md:px-72">
-                <div className="flex space-x-4 ">
+            <div className="right md:px-72 m-5">
+                <div className="flex space-x-4">
                     <Link className ="hover:text-[#fea116] hover:underline" href="home"> Home</Link>
                     <a className ="hover:text-[#fea116] hover:underline" href="">{'|'} Cokise</a>
                     <a className ="hover:text-[#fea116] hover:underline" href="">{'|'} Help</a>
