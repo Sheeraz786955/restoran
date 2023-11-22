@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Buttonemail from "./Buttonemail"
 export default function Footer() {
-    return <div className="footer bg bg-[#212432] text-white p-5 pr-4">
+    return <div className="footer bg bg-[#212432] text-white md:p-5 w-fit pr-5">
         <div className="container md:flex md:space-x-8">
             <div className="left py-8">
                 <div className="flex flex-col pl-10">

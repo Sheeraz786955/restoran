@@ -9,7 +9,7 @@ import Mainheading from './components/Mainheading'
 
 export default function Home() {
   return (
-    <main className=' bg-gray-100 items-center w-fit'>
+    <main className=' bg-gray-100 items-center'>
      <Mainheading/>
      <Servicesbox/>
      <Welcome/>

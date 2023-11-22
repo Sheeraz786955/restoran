@@ -4,16 +4,16 @@ import Link from "next/link";
 import More from "./More";
 export default function Header () {
   return (
-    <div className="h-fit">
-      <div className="py-3 md:hidden bg-[#212432] flex gap-48 w-full max-full">
+    <div className="h-fit bg-[#212432]">
+      <div className="py-3 md:hidden bg-[#212432] flex gap-48 mx-auto w-full ">
         <div className="text-white pl-3 pt-1 ">
           <Link href="/" className=" text-[#fea116] font-serif font-extrabold hover:text-orange-400">RESTORAN</Link>
         </div>
-        <div className=" ">
+        <div className="">
           <Dropdown />
         </div>
       </div>
-      <div className="header hidden md:flex md:space-x-10  bg-[#212432] py-1 font-bold text-2xl text-white  w-full pr-3">
+      <div className="header hidden md:flex md:space-x-10  bg-[#212432] py-1 font-bold text-2xl text-white  w-full pr-3 ">
         <div className=" float-left pt-5 ml-5">
           <Link href="/" className="text-[#fea116] font-serif font-extrabold hover:text-orange-400">RESTORAN</Link>
         </div>

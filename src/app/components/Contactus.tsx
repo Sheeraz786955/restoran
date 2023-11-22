@@ -1,6 +1,6 @@
 import Buttonmessage from "./Buttonmessage"
 export default function Contactus(){
-   return<div className="reservation md:px-8 md:py-4 mb-3">
+   return<div className="reservation md:px-8 md:py-4 mb-3 md:w-full">
     <div className="container md:flex h-fit  bg-[#0f172b] ">
         <div className="right w-full items-center justify-center md:px-72">
             <form action="" className="p-11 md:pl-48 ">

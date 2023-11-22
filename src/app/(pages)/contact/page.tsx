@@ -1,8 +1,8 @@
 import Contactus from "../../components/Contactus"
 import Image from "next/image"
 export default function Contact(){
-    return  <div className="about bg-gray-100 ">
-    <div className="container max-w-full" style={{ backgroundImage: "url('/bg-hero.jpg')" }}>
+    return  <div className="about bg-gray-100 w-fit md:w-full ">
+    <div className="container max-w-full bg-[#212432]" style={{ backgroundImage: "url('/bg-hero.jpg')" }}>
         <div className="maim bg-transparent  h-96 w-full">
         <div className="pt-40"><h1 className="font-bold text-white md:text-6xl text-5xl text-center">Contact Us</h1></div>
         </div>
