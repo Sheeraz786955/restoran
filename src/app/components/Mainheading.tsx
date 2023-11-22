@@ -11,7 +11,7 @@ export default function Mainheading() {
                 <h1 className='font-bold font-serif text-white text-4xl md:text-5xl text-center mt-5'>Enjoy Our<br/> 
                 Delicious Meal</h1>
                 <p  className='text-white text-center mt-8'>Welcome to our Restaurant, where culinary delights and warm hospitality await you. Step into a world of delectable flavors crafted with passion and care. Our menu is a symphony of tastes, offering a diverse range of dishes that cater to every palate</p>
-                <div className='items-center ml-20 md:ml-36 mt-8 w-full h-full'>  <Link href={'book-table'}><Button/></Link></div>
+                <div className='items-center justify-center ml-10 md:ml-32 mt-8 w-full h-full'>  <Link href={'book-table'}><Button/></Link></div>
             </div>
             <div className="right md:w-1/2">
                 <div className='p-10 mb-3'><Image className='animate-pulse hover:scale-110 duration-300' src="/hero.png" alt="" width={700} height={0}/></div>
