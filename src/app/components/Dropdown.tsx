@@ -68,7 +68,7 @@ const Dropdown: React.FC = () => {
               className="block pr-12 py-2 text-xl justify-start text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
-              Manu
+              Menu
             </Link>
             <Link
               href="contact"

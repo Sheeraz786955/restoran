@@ -34,7 +34,7 @@ export default function Header () {
           Contact
         </Link>
         <Link className="hover:text-[#fea116] pt-1" href={"manu"}>
-          Manu
+          Menu
         </Link>
 
         <div className="w-fit">

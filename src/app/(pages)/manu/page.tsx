@@ -3,7 +3,7 @@ export default function Manu(){
     return <div className="about bg-gray-100 w-fit md:w-full  ">
     <div className="container max-w-full" style={{ backgroundImage: "url('/bg-hero.jpg')" }}>
         <div className="maim bg-transparent  h-96 w-full">
-        <div className="pt-40"><h1 className="font-bold text-white md:text-6xl text-5xl text-center">Our Manu</h1></div>
+        <div className="pt-40"><h1 className="font-bold text-white md:text-6xl text-5xl text-center">Our Menu</h1></div>
         </div>
         
     </div>
