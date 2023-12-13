@@ -1,8 +1,8 @@
-"use client" 
-import More from './More';
-import React, { use, useState } from 'react';
-import Button from './Button';
-import Link from 'next/link';
+"use client";
+import More from "./More";
+import React, { use, useState } from "react";
+import Button from "./Button";
+import Link from "next/link";
 
 const Dropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,11 +50,10 @@ const Dropdown: React.FC = () => {
               Home
             </Link>
             <span
-              
               className="block px-4 py-2 text-xl text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
-             <More/>
+              <More />
             </span>
             <Link
               href="service"
@@ -82,10 +81,15 @@ const Dropdown: React.FC = () => {
               className="block pr-12 py-2 text-xl text-white font-bold hover:text-[#fea116]"
               role="menuitem"
             >
-             About
+              About
             </Link>
-            
-       <div className='text-white block px-4 py-2 '>  <Link href={'book-table'}><Button/></Link></div>
+
+            <div className="text-white block px-4 py-2 ">
+              {" "}
+              <Link href={"book-table"}>
+                <Button />
+              </Link>
+            </div>
           </div>
         </div>
       )}
